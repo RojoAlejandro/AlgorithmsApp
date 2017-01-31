@@ -6,4 +6,21 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <style name="AppTheme">
+        <!--Habilitar animaciones en las transiciones -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Deshabilitar sobreposición entre animaciones-->
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+
+
+        <!-- Transiciones para entrada, salida y elementos compartidos...-->
+
+        <!-- Habilitar superposición de los elementos compartidos entre transiciones -->
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+
+
+    </style>
 </resources>
